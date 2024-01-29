@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmailByAkshatraj</title>
+    <link rel="stylesheet" href="EmailOtp.css" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  </head>
+  <body>
+    <div id="container">
+      <h3>Email OTP By javascript</h3>
+      <input type="email" id="email" placeholder="enter email here..." />
+      <div id="verification">
+        <input type="text" id="otp_value" placeholder="enter otp here..." />
+        <button id="verify_btn">&nbsp; verify otp&nbsp;</button>
+      </div>
+      <br />
+      <button id="tosend" onclick="sendOtp()">&nbsp;send otp&nbsp;</button>
+    </div>
+    <script src="EmailOtp.js"></script>
+  </body>
+</html>
